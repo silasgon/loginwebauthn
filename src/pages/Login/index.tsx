@@ -1,7 +1,6 @@
 import { ChangeEvent, useContext, useState } from "react"
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../../contexts/Auth/AuthContext";
-import SimpleWebAuthnBrowser  from '@simplewebauthn/browser';
 
 
 export const Login = () => {
